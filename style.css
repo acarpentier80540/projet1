@@ -1,0 +1,9 @@
+nav {justify-content: flex-start; height: 50px; background-color: green;}
+
+
+ul{display: flex;margin-top: 0px;align-items: center;list-style-type: none; font-style: oblique; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#logo{width:auto;height: 50px;}
+li{margin-left: 50px;color: yellowgreen;}
+
+li a {color: yellowgreen;text-decoration: none;}

@@ -1,9 +1,47 @@
-nav {justify-content: flex-start; height: 50px; background-color: green;}
+body {background-color: rgb(253, 253, 253);}
+
+nav {justify-content: flex-start; height: 50px; background-color: rgb(4, 161, 4);margin-top: -8px;margin-left: -8px;margin-right: -8px;}
 
 
-ul{display: flex;margin-top: 0px;align-items: center;list-style-type: none; font-style: oblique; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+ul{
+    display: flex;
+    margin-left: -55px;
+    margin-top: 0px;
+    align-items: center;
+    list-style-type: none; 
+    font-style: oblique; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-#logo{width:auto;height: 50px;}
-li{margin-left: 50px;color: yellowgreen;}
+    .panier {margin-left: 1350%;}
 
-li a {color: yellowgreen;text-decoration: none;}
+    #logo{width:auto;height: 50px;}
+
+    li{margin-left: 1%;color: yellowgreen;}
+
+
+    li a {color: rgba(255, 255, 255, 0.938);text-decoration: none;}
+
+    li :hover { font-size: large;}
+
+
+    header{display: flex;height: 500px;justify-content: space-between; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: oblique;color: rgb(87, 184, 8);}
+
+
+    .Presentation {font-size: small;border-bottom: 1rem;text-align: justify;}
+
+
+    .famille {width: auto;height: 100px;margin-left: 150px;border-radius: 20px;}
+
+
+    .photo-exploitation {height: 500px;width: auto;border-radius: 10px;margin-top: 10px;margin-left: 10px;}
+
+    .sep {
+        border-bottom: 5px solid rgb(4, 161, 4) ;
+        margin-top: 30px;border-radius: 30px;
+    }
+
+    .milieu {display: flex;height: 500px;justify-content: space-between; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: oblique;color: rgb(87, 184, 8);}
+
+    #centre {height: 400px;width: auto;border-radius: 10px;margin-top: 10px;margin-right: 10px;}
+    
+    .textmil {font-size: small;border-bottom: 1rem;text-align: justify;}

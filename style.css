@@ -1,7 +1,9 @@
+/*mobil first*/
+
 body {background-color: rgb(253, 253, 253);}
 
 nav {justify-content: flex-start; 
-    height: 50px; 
+    height: 30px; 
     background-color: rgb(4, 161, 4);
     margin-top: -8px;
     margin-left: -8px;
@@ -12,44 +14,47 @@ ul{
     display: flex;
     margin-left: -55px;
     margin-top: 0px;
-    align-items: center;
     list-style-type: none; 
     font-style: oblique; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-    .panier {margin-left: 1350%;}
+    .panier {margin-left: 450%;}
 
-    #logo{width:auto;height: 20px;}
+    #logo{width:auto;height: 30px;}
 
-    li{margin-left: 1%;color: yellowgreen;}
-
-
-    li a {color: rgba(255, 255, 255, 0.938);text-decoration: none;}
-
-    li :hover { font-size: small;}
+    li{margin-left: 1%;color: yellowgreen;
+    ;}
 
 
-    header{display: flex;
-        height: 500px;
+    li a {color: rgba(255, 255, 255, 0.938);
+        text-decoration: none;
+        font-size: xx-small;}
+
+    li :hover {}
+
+
+    header{display: grid;
+        height: 300px;
+        grid-template-columns: 280px 200px;
         justify-content: space-between;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          font-style: oblique;
          color: rgb(87, 184, 8);}
 
 
-    .Presentation {font-size: small;
+    .Presentation {font-size: 50%;
         border-bottom: 1rem;
         text-align: justify;}
 
 
     .famille {width: auto;
-        height: 100px;
-        margin-left: 150px;
+        height: 80px;
+        margin-left: 50px;
         border-radius: 20px;}
 
 
-    .photo-exploitation {height: 500px;
-        width: auto;
+    .prairie {height: auto;
+        width: 100%;
         border-radius: 10px;
         margin-top: 10px;
         margin-left: 10px;}
@@ -67,12 +72,12 @@ ul{
          font-style: oblique;
          color: rgb(87, 184, 8);}
 
-    #centre {height: 400px;
+    #centre {height: 150px;;
         width: auto;
         border-radius: 10px;
         margin-top: 10px;
         margin-right: 10px;}
     
-    .textmil {font-size: small;
+    .textmil {font-size: 50%;
         border-bottom: 1rem;
         text-align: justify;}

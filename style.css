@@ -1,6 +1,11 @@
 body {background-color: rgb(253, 253, 253);}
 
-nav {justify-content: flex-start; height: 50px; background-color: rgb(4, 161, 4);margin-top: -8px;margin-left: -8px;margin-right: -8px;}
+nav {justify-content: flex-start; 
+    height: 50px; 
+    background-color: rgb(4, 161, 4);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;}
 
 
 ul{
@@ -14,34 +19,60 @@ ul{
 
     .panier {margin-left: 1350%;}
 
-    #logo{width:auto;height: 50px;}
+    #logo{width:auto;height: 20px;}
 
     li{margin-left: 1%;color: yellowgreen;}
 
 
     li a {color: rgba(255, 255, 255, 0.938);text-decoration: none;}
 
-    li :hover { font-size: large;}
+    li :hover { font-size: small;}
 
 
-    header{display: flex;height: 500px;justify-content: space-between; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: oblique;color: rgb(87, 184, 8);}
+    header{display: flex;
+        height: 500px;
+        justify-content: space-between;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-style: oblique;
+         color: rgb(87, 184, 8);}
 
 
-    .Presentation {font-size: small;border-bottom: 1rem;text-align: justify;}
+    .Presentation {font-size: small;
+        border-bottom: 1rem;
+        text-align: justify;}
 
 
-    .famille {width: auto;height: 100px;margin-left: 150px;border-radius: 20px;}
+    .famille {width: auto;
+        height: 100px;
+        margin-left: 150px;
+        border-radius: 20px;}
 
 
-    .photo-exploitation {height: 500px;width: auto;border-radius: 10px;margin-top: 10px;margin-left: 10px;}
+    .photo-exploitation {height: 500px;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 10px;}
 
     .sep {
         border-bottom: 5px solid rgb(4, 161, 4) ;
-        margin-top: 30px;border-radius: 30px;
+        margin-top: 30px;
+        border-radius: 30px;
     }
 
-    .milieu {display: flex;height: 500px;justify-content: space-between; font-family: Verdana, Geneva, Tahoma, sans-serif;font-style: oblique;color: rgb(87, 184, 8);}
+    .milieu {display: flex;
+        height: 500px;
+        justify-content: space-between;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-style: oblique;
+         color: rgb(87, 184, 8);}
 
-    #centre {height: 400px;width: auto;border-radius: 10px;margin-top: 10px;margin-right: 10px;}
+    #centre {height: 400px;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-right: 10px;}
     
-    .textmil {font-size: small;border-bottom: 1rem;text-align: justify;}
+    .textmil {font-size: small;
+        border-bottom: 1rem;
+        text-align: justify;}

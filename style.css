@@ -1,0 +1,94 @@
+/*mobil first*/
+
+body {background-color: rgb(253, 253, 253);}
+
+nav { 
+     
+    background-color: rgb(4, 161, 4);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;}
+
+
+ul{
+    display: flex;
+    margin-left: -55px;
+    margin-top: 0px;
+    list-style-type: none; 
+    font-style: oblique; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-around;
+height: 30px;}
+
+    
+
+    #logo{width:auto;height: 30px;}
+
+    li{margin-left: 1%;color: yellowgreen;
+    ;}
+
+
+    li a {color: rgba(255, 255, 255, 0.938);
+        text-decoration: none;
+        font-size: 40%;}
+
+    li :hover {}
+
+
+    header{display: grid;
+        grid-template-columns: 50% 50%;
+         font-family: Verdana, Tahoma, sans-serif;
+         font-style: oblique;
+         color: rgb(87, 184, 8);height: 450px;}
+
+
+    .Presentation {font-size: 50%;
+        border-bottom: 10%;
+        text-align: justify;}
+
+
+    .famille {width: auto;
+        height: 10%;
+        margin-left: 20%;
+        border-radius: 20px;}
+
+
+    .prairie {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .sep {
+        border-bottom: 5px solid rgb(4, 161, 4) ;
+        margin-top: 10%;
+        border-radius: 30px;
+    }
+
+    .milieu {
+        height: 400px;
+        justify-content: space-between;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-style: oblique;
+         color: rgb(87, 184, 8);}
+
+    #centre {height: 150px;;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20%;}
+    
+    .textmil {font-size: 50%;
+    
+        text-align: justify;}
+
+        .fin{ height: 250px;margin-left: -10px;margin-right: -10px;margin-bottom: -10px;background: rgb(4, 161, 4);padding-top: 20px;align-items: flex-end;}
+
+        .map{margin-top: 30px; }
+
+        .contact{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+            font-size: 70%;
+            text-align: center;
+            
+        }

@@ -1,60 +1,68 @@
 /*mobil first*/
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
 
-body {background-color: rgb(253, 253, 253);}
+}
+body {
+    background-color: rgb(253, 253, 253);
+}
 
 nav { 
      
     background-color: rgb(4, 161, 4);
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;}
+}
 
 
 ul{
     display: flex;
-    margin-left: -55px;
-    margin-top: 0px;
     list-style-type: none; 
     font-style: oblique; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    justify-content: space-around;
-height: 30px;}
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;}
 
     
 
-    #logo{width:auto;height: 30px;}
+    #logo{
+        width:auto;
+        height: 100%;}
 
-    li{margin-left: 1%;color: yellowgreen;
-    ;}
+    li{
+        color: yellowgreen;
+    }
 
 
-    li a {color: rgba(255, 255, 255, 0.938);
-        text-decoration: none;
-        font-size: 40%;}
+    li a {
+            color: rgba(255, 255, 255, 0.938);
+            text-decoration: none;
+            font-size: 40%;}
 
     li :hover {}
 
+    header{ display: grid;
+            grid-template-columns: 50% 50%;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-style: oblique;
+            color: rgb(87, 184, 8);height: 450px;}
 
-    header{display: grid;
-        grid-template-columns: 50% 50%;
-         font-family: Verdana, Tahoma, sans-serif;
-         font-style: oblique;
-         color: rgb(87, 184, 8);height: 450px;}
 
-
-    .Presentation {font-size: 50%;
+    .Presentation {
+        font-size: 50%;
         border-bottom: 10%;
         text-align: justify;}
 
 
-    .famille {width: auto;
+    .famille {
+        width: auto;
         height: 10%;
-        margin-left: 20%;
-        border-radius: 20px;}
+        border-radius: 20px;margin-left: 13.274%;}
 
 
     .prairie {
-        width: 100%;
+        width: 90%;
         border-radius: 10px;
         margin-top: 10px;
         margin-left: 10px;
@@ -62,33 +70,39 @@ height: 30px;}
 
     .sep {
         border-bottom: 5px solid rgb(4, 161, 4) ;
-        margin-top: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         border-radius: 30px;
     }
 
     .milieu {
-        height: 400px;
-        justify-content: space-between;
+         text-align: center;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
          font-style: oblique;
          color: rgb(87, 184, 8);}
 
-    #centre {height: 150px;;
-        width: auto;
+    #centre {
+        height: 150px;;
         border-radius: 10px;
         margin-top: 10px;
-        margin-left: 20%;}
+        text-align: center;}
     
-    .textmil {font-size: 50%;
-    
-        text-align: justify;}
+        .textmil {
+            font-size: 40%;
 
-        .fin{ height: 250px;margin-left: -10px;margin-right: -10px;margin-bottom: -10px;background: rgb(4, 161, 4);padding-top: 20px;align-items: flex-end;}
-
-        .map{margin-top: 30px; }
-
-        .contact{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
-            font-size: 70%;
-            text-align: center;
-            
         }
+
+        .fin{
+            margin-left: -10px;
+            margin-right: -10px;
+            background: rgb(4, 161, 4);}
+
+        .map{
+            width: 100%;
+            height: 100%;
+            margin-bottom: -10px;}
+
+        .contact{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+            font-size: 70%;
+            text-align: center;}

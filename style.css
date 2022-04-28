@@ -22,7 +22,7 @@ ul{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 30px;
     width: 100%;
-    justify-content: space-between;}
+    justify-content: flex-start;}
 
     
 
@@ -32,6 +32,7 @@ ul{
 
     li{
         color: yellowgreen;
+        margin-right: 2%;
     }
 
 

@@ -43,30 +43,38 @@ ul{
 
     li :hover {}
 
-    header{ display: grid;
+    header{ 
+            display: grid;
             grid-template-columns: 50% 50%;
             font-family: Verdana, Tahoma, sans-serif;
             font-style: oblique;
-            color: rgb(87, 184, 8);height: 450px;}
+            color: rgb(87, 184, 8);
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            font-size: 50%;
+            height: 300px;}
 
 
     .Presentation {
-        font-size: 50%;
-        border-bottom: 10%;
+        margin-top: 10px;
+        font-size: 100%;
         text-align: justify;}
 
 
     .famille {
         width: auto;
-        height: 10%;
-        border-radius: 20px;margin-left: 13.274%;}
+        height: 20%;
+        border-radius: 20px;
+        margin-left: 13.274%;
+        margin-top: 10px;}
 
 
     .prairie {
-        width: 90%;
+        width: 95%;
         border-radius: 10px;
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 5%;
     }
 
     .sep {
@@ -107,3 +115,40 @@ ul{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
             font-size: 70%;
             text-align: center;}
+
+
+
+@media screen and (min-width: 480px) {
+    ul{
+        display: flex;
+        list-style-type: none; 
+        font-style: oblique; 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        height: 50px;
+        width: 100%;
+        justify-content: flex-start;}
+    
+        
+    
+        #logo{
+            width:auto;
+            height: 100%;}
+    
+        li{
+            color: yellowgreen;
+            margin-right: 2%;
+            display: flex;
+            align-items: center;
+        }
+    
+    
+        li a {
+                color: rgba(255, 255, 255, 0.938);
+                text-decoration: none;
+                font-size: 80%;}
+    
+} 
+        .Presentation {
+                font-size: 60%;
+                border-bottom: 10%;
+                text-align: justify;}

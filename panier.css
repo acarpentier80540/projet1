@@ -1,0 +1,40 @@
+*
+{margin: 0px;
+padding: 0px;}
+body {
+    background-color: rgb(253, 253, 253);
+}
+
+nav { 
+     
+    background-color: rgb(4, 161, 4);
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none; 
+    font-style: oblique; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 30px;
+    width: 100%;
+    justify-content: flex-start;}
+
+    
+
+    #logo{
+        width:auto;
+        height: 100%;}
+
+    li{
+        color: yellowgreen;margin-right: 2%;
+    }
+
+
+    li a {
+            color: rgba(255, 255, 255, 0.938);
+            text-decoration: none;
+            font-size: 40%;}
+
+   img{width: 20%;
+         margin-right: 5%;}

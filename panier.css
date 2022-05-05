@@ -39,7 +39,26 @@ ul{
    img{width: 20%;
          margin-right: 5%;}
 
-         .fin{
+
+.ar-plan{
+        height: 100px;
+        
+   background: url(https://media.istockphoto.com/photos/empty-field-at-the-sunset-picture-id689762756?k=20&m=689762756&s=612x612&w=0&h=XyQFeaP7gT2qwgYcVXIorbJ3n9LrTAgPKSCUA81rPo8=)
+}
+
+.panier{
+    margin: 10px;
+    border-radius: 4px;
+    background-color: white;
+    
+}
+
+h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;}
+
+
+
+.fin{      margin-top: -10px;
             margin-left: -10px;
             margin-right: -10px;
             background: #aab24b;

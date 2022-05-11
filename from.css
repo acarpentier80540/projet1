@@ -27,7 +27,8 @@ ul{
         height: 100%;}
 
     li{
-        color: yellowgreen;margin-right: 2%;
+        color: yellowgreen;
+        margin-right: 2%;
     }
 
 
@@ -36,7 +37,7 @@ ul{
             text-decoration: none;
             font-size: 40%;}
 
-   img{width: 25%;
+   .prod{width: 25%;
          margin-right: 3%;
         margin-left: 3%;}
 
@@ -92,7 +93,10 @@ ul{
                 background-color: #eb9b23;
                 border-radius: 5px;
                 padding: 5px;}
-
+          .barresep{
+              width: 100%;
+              
+          }
             .fin{
                 margin-left: -10px;
                 margin-right: -10px;

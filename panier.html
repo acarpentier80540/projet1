@@ -23,8 +23,27 @@
 <div class="ar-plan"></div> 
 
 <div class="panier">
-<h1>Panier</h1>
 
+<div class="dropdown">
+    <div id="cart">
+        <p><span id="in-cart-items-num">0</span> Articles</p>
+    </div>
+
+    <ul id="cart-dropdown" hidden>
+        <li id="empty-cart-msg"><a>Votre panier est vide</a></li>
+        <li class="go-to-cart hidden"><a href="/panier/">Voir le panier</a></li>
+    </ul>
+</div>
+<table class="table">
+    <thead>
+        <tr><th>Article</th><th>Prix</th><th>Quantité</th></tr>
+    </thead>
+    <tbody id="cart-tablebody"></tbody>
+</table>
+
+<p>Sous total : <span class="subtotal"></span>€</p>
+
+<button id="confirm-command">Passer la commande</button>
 
 </div>
     

@@ -50,10 +50,19 @@ ul{
     margin: 10px;
     border-radius: 4px;
     background-color: white;
+    font-size: 60%;
     
 }
+#confirm-command{
+    margin: 5px;
+    padding: 2%;
+    font-size: 30%;
 
-h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #eb9b23;
+    border-radius: 2px;
+}
+
+.dropdown{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: small;}
 
 

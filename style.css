@@ -266,10 +266,10 @@ iframe{
   text-align: center;
 }
     .famille {
-        width: auto;
-        width: 80%;
+       
+        width: 50%;
         border-radius: 20px;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-top: 10px;}
 
 
@@ -287,7 +287,7 @@ iframe{
         margin-bottom: 5%;
         border-radius: 30px;
     }
-
+.youtube {text-align: center;}
     .milieu {
          text-align: center;
          font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -296,7 +296,7 @@ iframe{
         padding: 10px;}
 
     #centre {
-        width: 40%;
+        width: 30%;
         border-radius: 10px;
         margin-top: 10px;
         text-align: center;}

@@ -189,16 +189,24 @@ body {
 form{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 50px;}
+margin: 50px;
+background-color: #F0F0F0;}
 
-input{margin: 10px;
-border: solid 2px;}
+h3 { margin-bottom: 10px;}
+
+input{margin: 20px;
+border: solid 2px;padding: 10px;}
+
+label{margin-bottom: 10px;}
+.envoyer {background-color: #eb9b23;
+margin: 10px;}
 textarea{
-    
+    margin: 10px;
     border: solid 2px;
+    width: 80%;
 }
 .centre{text-align: center;}
-.illus{width: 80%;
+.illus{width: 60%;
 }
 .fin{
     margin-left: -10px;
@@ -220,6 +228,6 @@ textarea{
 
 .contact{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
-    font-size: 40%;
+    font-size: 70%;
     text-align: center;
 color: #665033;}

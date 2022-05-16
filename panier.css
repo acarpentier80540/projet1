@@ -243,8 +243,8 @@ ul{
 }
 #confirm-command{
     margin: 5px;
-    padding: 2%;
-    font-size: 30%;
+    padding: 1%;
+    font-size: 60%;
 
     background-color: #eb9b23;
     border-radius: 2px;
@@ -273,7 +273,7 @@ ul{
 
         .contact{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
-            font-size: 40%;
+            font-size: 70%;
             text-align: center;
         color: #665033;}
 

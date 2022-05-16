@@ -257,10 +257,14 @@ body {
     .Presentation {
     justify-content: center;
         margin-top: 10px;
+        margin-right: 10px;
         /*height: ;*/
-        text-align: justify;}
+        text-align: justify;
+      /*text-align: center;*/}
 
-
+iframe{
+  text-align: center;
+}
     .famille {
         width: auto;
         width: 80%;
